@@ -9,18 +9,18 @@ body {
 .offers {
     background-color: black;
     display: flex;
-    height: 100px;
+    height: 80px;
     justify-content: space-around;
     align-items: center;
 }
 .offer-item {
-    height: 100px;
+    height: 120%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .hero {
-    height: 100px;
+    height: 80px;
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -42,6 +42,13 @@ body {
 #teamHub{
     color: rgb(221, 145, 3);
 }
+content{
+    margin: 10px;
+}
+.content-pair{
+    display:flex;
+    justify-content: space-evenly;
+}
 
 .content-item {
     position: relative;
@@ -58,6 +65,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    transition: 0.3s;
     background-color: #2a2a2a;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -72,5 +80,20 @@ body {
 }
 .content-item .btn:hover {
     background-color: black;
+    /*color: white;*/
+}
+
+.contact{
+    background-color: black;
+    height: 80px;
+    margin: 10px;
+}
+.contact-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     color: white;
-  }
+    font-family: 'Geogrotesque', 'Open-sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
