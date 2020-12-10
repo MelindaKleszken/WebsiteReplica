@@ -17,11 +17,11 @@ body {
     height: 300px;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.logo {
-    width: 10%;
+#puma {
+    width: 250px;
 
 }
