@@ -85,10 +85,10 @@ content{
 
 .contact{
     background-color: black;
-    height: 80px;
+    height: 200px;
     margin: 10px;
 }
-.contact-item{
+.contact-item {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -97,3 +97,38 @@ content{
     font-weight: 500;
     font-size: 18px;
 }
+.contact-item img{
+    height: 180px;
+    display: flex;
+    align-self: center;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: black;
+    height: 50px;
+    margin: 10px;
+}
+#copyright{
+    color: #a3a3a3;
+    font-family: 'Geogrotesque', 'Open-sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+ 
+}
+
+#copyright a{
+    text-decoration: none;
+    color: #a3a3a3;
+}
+#copyright a:hover {
+    color: #08b475;
+    font-size: 120%;
+    transition: 0.3s;
+  }
