@@ -87,6 +87,8 @@ content{
     background-color: black;
     height: 200px;
     margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .contact-item {
     display: flex;
@@ -103,6 +105,25 @@ content{
     align-self: center;
 }
 
+.about h3, .support h3{
+    margin-top: 0;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #a3a3a3;
+    padding-left:0;
+}
+li{
+    padding-left:0;
+    margin: 10px 10px 10px 0;
+    font-family: 'Geogrotesque', 'Open-sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;    
+}
 
 
 
