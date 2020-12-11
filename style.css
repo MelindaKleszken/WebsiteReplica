@@ -19,6 +19,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 250px;
+}
+
+
+.offer-item img {
+    width: 230px;
 }
 
 /*hero section: logo + search + account*/
@@ -73,6 +79,7 @@ input .search-bar{
     font-weight: 500;
     font-size: 18px;
 }
+
 #teamHub{
     color: rgb(221, 145, 3);
 }
