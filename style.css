@@ -235,8 +235,16 @@ li{
         font-size: 10px;
         display: flex;
         align-items: center;
-        width: 20%;
+        align-self: center;
+        width: 35%;
         height: auto;
         padding: 5px;
+    }
+    p {
+        margin:0;
+        padding:0;
+        display: flex;
+        align-self: center;
+        justify-content: center;
     }
 }
